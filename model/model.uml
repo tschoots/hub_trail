@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EYCXwObZEeWQfPwp_MMiZQ" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_PRoXgObZEeWQfPwp_MMiZQ" name="Use Case View">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_y9bsoObZEeWQfPwp_MMiZQ" name="Prospect"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3SOioObZEeWQfPwp_MMiZQ" name="Request trail scan"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_6lCXMObZEeWQfPwp_MMiZQ" name="Pop 3 mail server"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-8wlYObZEeWQfPwp_MMiZQ" memberEnd="_-9C5QObZEeWQfPwp_MMiZQ _-9DgUObZEeWQfPwp_MMiZQ" navigableOwnedEnd="_-9C5QObZEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-8020ObZEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-81d4ObZEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-9C5QObZEeWQfPwp_MMiZQ" name="request trail scan" type="_3SOioObZEeWQfPwp_MMiZQ" association="_-8wlYObZEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-9DgUObZEeWQfPwp_MMiZQ" name="prospect" type="_y9bsoObZEeWQfPwp_MMiZQ" association="_-8wlYObZEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_AXrrQObaEeWQfPwp_MMiZQ" memberEnd="_AXsSUubaEeWQfPwp_MMiZQ _AXs5YObaEeWQfPwp_MMiZQ" navigableOwnedEnd="_AXsSUubaEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AXsSUObaEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AXsSUebaEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_AXsSUubaEeWQfPwp_MMiZQ" name="pop 3 mail server" type="_6lCXMObZEeWQfPwp_MMiZQ" association="_AXrrQObaEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_AXs5YObaEeWQfPwp_MMiZQ" name="request trail scan" type="_3SOioObZEeWQfPwp_MMiZQ" association="_AXrrQObaEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_CTQnIObaEeWQfPwp_MMiZQ" name="Black Duck Hub"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_EncQQObaEeWQfPwp_MMiZQ" memberEnd="_EndeYObaEeWQfPwp_MMiZQ _EndeYebaEeWQfPwp_MMiZQ" navigableOwnedEnd="_EndeYObaEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Enc3UObaEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Enc3UebaEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_EndeYObaEeWQfPwp_MMiZQ" name="black duck hub" type="_CTQnIObaEeWQfPwp_MMiZQ" association="_EncQQObaEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_EndeYebaEeWQfPwp_MMiZQ" name="request trail scan" type="_3SOioObZEeWQfPwp_MMiZQ" association="_EncQQObaEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_GpQ-EObaEeWQfPwp_MMiZQ" name="Administrator"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IG9rIObaEeWQfPwp_MMiZQ" name="Configure trail server"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LWHuwObaEeWQfPwp_MMiZQ" memberEnd="_LWIV0ebaEeWQfPwp_MMiZQ _LWIV0ubaEeWQfPwp_MMiZQ" navigableOwnedEnd="_LWIV0ebaEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LWHuwebaEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LWIV0ObaEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_LWIV0ebaEeWQfPwp_MMiZQ" name="configure trail server" type="_IG9rIObaEeWQfPwp_MMiZQ" association="_LWHuwObaEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_LWIV0ubaEeWQfPwp_MMiZQ" name="administrator" type="_GpQ-EObaEeWQfPwp_MMiZQ" association="_LWHuwObaEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NMv5MObaEeWQfPwp_MMiZQ" memberEnd="_NMwgQubaEeWQfPwp_MMiZQ _NMwgQ-baEeWQfPwp_MMiZQ" navigableOwnedEnd="_NMwgQubaEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NMwgQObaEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NMwgQebaEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NMwgQubaEeWQfPwp_MMiZQ" name="pop 3 mail server" type="_6lCXMObZEeWQfPwp_MMiZQ" association="_NMv5MObaEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NMwgQ-baEeWQfPwp_MMiZQ" name="configure trail server" type="_IG9rIObaEeWQfPwp_MMiZQ" association="_NMv5MObaEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TokGEObaEeWQfPwp_MMiZQ" memberEnd="_ToktIubaEeWQfPwp_MMiZQ _ToktI-baEeWQfPwp_MMiZQ" navigableOwnedEnd="_ToktIubaEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ToktIObaEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ToktIebaEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ToktIubaEeWQfPwp_MMiZQ" name="black duck hub" type="_CTQnIObaEeWQfPwp_MMiZQ" association="_TokGEObaEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ToktI-baEeWQfPwp_MMiZQ" name="configure trail server" type="_IG9rIObaEeWQfPwp_MMiZQ" association="_TokGEObaEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iuIhkObbEeWQfPwp_MMiZQ" name="Perform a trail scan"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mQ1MQObbEeWQfPwp_MMiZQ" memberEnd="_mQ1zUebbEeWQfPwp_MMiZQ _mQ2aYObbEeWQfPwp_MMiZQ" navigableOwnedEnd="_mQ1zUebbEeWQfPwp_MMiZQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mQ1MQebbEeWQfPwp_MMiZQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mQ1zUObbEeWQfPwp_MMiZQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mQ1zUebbEeWQfPwp_MMiZQ" name="perform a trail scan" type="_iuIhkObbEeWQfPwp_MMiZQ" association="_mQ1MQObbEeWQfPwp_MMiZQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mQ2aYObbEeWQfPwp_MMiZQ" name="prospect" type="_y9bsoObZEeWQfPwp_MMiZQ" association="_mQ1MQObbEeWQfPwp_MMiZQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_S19Z4ObZEeWQfPwp_MMiZQ" name="Logical View"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Wv9KQObZEeWQfPwp_MMiZQ" name="Process View"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZSyTYObZEeWQfPwp_MMiZQ" name="Component View"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ctb1UObZEeWQfPwp_MMiZQ" name="Deployment View"/>
+</uml:Model>
